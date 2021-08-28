@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    animation: bgcolor infinite 20s;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+h1:hover {
+    background-position: 0 100%;
+  }
+  body {
+      
+  }
+  img {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+  }
+  .linkedin {
+      cursor: pointer;
+      padding-left: 50px;
+      padding-top: 20px;
+  }
+  .github {
+      cursor: pointer;
+      padding-left: 50px;
+      border-radius: 80%;
+  }
+
+  .linkedin:hover {
+      transform: translateX(20px) rotate(15deg);
+
+
+  }
+  .github:hover {
+    transform: translateX(20px) rotate(15deg);
+    
+
+}
+.commentform {
+    justify-content: flex-end;
+
+}
+@keyframes bgcolor {
+    0%
+    {
+        background: #e74c3c ;
+    }
+    20%
+    {
+        background: #2980b9;
+    }
+    40%
+    {
+        background: #f1c40f;
+    }
+    60%
+    {
+        background: #8e44ad;
+    }
+    80%
+    {
+        background: #34495e;
+    }
+    100%
+    {
+        background: #e74c3c;
+    }
+
+}
